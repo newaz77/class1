@@ -1,0 +1,131 @@
+<?php
+
+$floatvalue = 3.181612;
+
+$intvalue = (int)$floatvalue;
+
+echo $intvalue;
+
+echo "</br>";
+
+$sringvalue = "456789.4666"; // cast string to int
+$intvalue =(int)$sringvalue;
+
+echo $intvalue;
+// to find absolute value
+echo "</br>";
+
+$rawvalue = -69.69;
+
+echo abs($rawvalue);
+
+echo "</br>";
+
+//to find square root
+$totalsuare = 16;
+echo sqrt ($totalsuare);
+echo "</br>";
+
+// to round a digit
+
+$assignvalue = 0.50;
+$nonassignvalue = 1.39;
+
+echo round($assignvalue);
+echo "</br>";
+
+echo round($nonassignvalue);
+echo "</br>";
+
+//to generate a random value
+
+$randomvalue = rand();
+echo $randomvalue;
+
+?>
+
+
+
+
+
+
+
+<?php
+$fname = "Shahnawaz";
+
+$lname = "saju";
+
+$name = " Shahnawaz saju";
+
+echo $fname, " " , $lname . "</br>";
+
+echo $fname . " " . $lname . "</br>";
+
+echo strrev ($name). "</br>";
+
+echo strlen ($name);
+
+
+
+?>
+
+
+
+
+
+<?php
+$s = 25;
+$t = 10;
+
+echo $s > $t ;   //greater than execute if only true
+
+echo $s < $t ; //less than execute if only true
+
+echo $s >= $t; //greter than or equal execute if the terms equal or large
+
+echo $s <= $t ;// less than or equal execute if the terms equal or small
+
+echo $s == $t; // only execute when both value are same
+
+echo $s != $t ; // only execute when value are not same;
+
+?>
+
+
+
+
+<?php
+
+$num1 = 100;
+
+$num2 = 77;
+
+echo $num1 + $num2 ; //addition
+
+echo "</br>";
+
+echo $num1 - $num2 ; // substraction
+
+echo "</br>";
+
+echo $num1 * $num2 ; // Multiplication
+
+echo "</br>";
+
+echo $num1 / $num2; // Division
+
+echo "</br>";
+
+echo $num1 % $num2 ; // modulus
+
+echo "</br>";
+
+echo $num1 ** $num2 ; // Exponentiation
+
+echo "</br>";
+
+?>
+
+
+
+ 
